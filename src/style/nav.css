@@ -1,0 +1,41 @@
+*{
+
+overflow-x: hidden;    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 90px;
+    background-color: #e8e8e8 !important;
+}
+.navbar-brand{
+    color: #ee4e34;
+    font-size: 2rem;
+}
+.navbar-brand:hover{
+    color: #ee4e34; 
+}
+.offcanvas-body{
+    background-color: #e8e8e8 !important;
+}
+.offcanvas-body a{
+  margin: 20px 0px;
+  padding: 10px;
+}
+.offcanvas-header{
+    background-color: #ee4d34bd;
+    
+}
+.icon,
+.dropdown{
+    margin:0px  15px;
+}
+.navbar-toggler{
+    border: none !important;
+    color: #e8e8e8 ;
+}
+.welcomeTeaxt{
+    text-transform: capitalize;
+    text-shadow: 1px 0px 3px #f27474;
+    font-size: 2rem;
+    margin: 5px;
+}

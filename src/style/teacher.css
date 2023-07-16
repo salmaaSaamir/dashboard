@@ -1,0 +1,33 @@
+
+.table{
+    width: 95%;
+    margin: 10% auto 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.table .dep{
+    text-transform: uppercase;
+}
+.table .delete{
+    border: 1px solid #ee4e34;
+    margin: 0px 10px;
+    color: #ee4e34;
+}
+.table .delete:hover{
+    border: none;
+    background-color:  #ee4e34;
+    color: white;
+}
+div:where(.swal2-container) h2:where(.swal2-title) {
+
+    overflow: hidden;}
+
+    div:where(.swal2-icon).swal2-error.swal2-icon-show {
+    overflow: hidden !important;
+}
+div:where(.swal2-icon).swal2-success {
+    overflow: hidden !important;
+}
+.swal2-confirm  {
+    margin: 5px;
+}

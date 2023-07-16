@@ -1,0 +1,118 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "salma",
+      "age": "21",
+      "gpa": 3.3,
+      "degree": "very good",
+      "hours": 105,
+      "department": "it"
+    },
+    {
+      "id": 2,
+      "name": "nada",
+      "age": "23",
+      "gpa": 3.7,
+      "degree": "excelant",
+      "hours": 108,
+      "department": "hw"
+    },
+    {
+      "id": 3,
+      "name": "ahmed",
+      "age": "22",
+      "gpa": 2.9,
+      "degree": "vry good",
+      "hours": 100,
+      "department": "cs"
+    },
+    {
+      "id": 4,
+      "name": "amir",
+      "age": "24",
+      "gpa": 1.5,
+      "degree": "fail",
+      "hours": 105,
+      "department": "cs"
+    },
+    {
+      "id": 5,
+      "name": "ali",
+      "age": "21",
+      "gpa": 3.3,
+      "degree": "very good",
+      "hours": 105,
+      "department": "it"
+    },
+    {
+      "id": 6,
+      "name": "qasem",
+      "age": "23",
+      "gpa": 3.7,
+      "degree": "excelant",
+      "hours": 108,
+      "department": "hw"
+    },
+    {
+      "name": "rawan",
+      "age": "21",
+      "degree": "very good",
+      "gpa": 3.3,
+      "hours": 105,
+      "department": "it",
+      "id": 9
+    },
+    {
+      "id": 11,
+      "name": "omar",
+      "age": "22",
+      "gpa": 2.9,
+      "degree": "vry good",
+      "hours": 100,
+      "department": "cs"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "reda",
+      "age": "45",
+      "salary": 3200,
+      "hours": "55",
+      "department": "cs",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "hoda",
+      "age": "60",
+      "salary": 5000,
+      "hours": 20,
+      "department": "it"
+    },
+    {
+      "id": 3,
+      "name": "mohamed",
+      "age": "40",
+      "salary": 7200,
+      "hours": 25,
+      "department": "ai"
+    },
+    {
+      "id": 4,
+      "name": "abdelrahmen",
+      "age": "35",
+      "salary": 1000,
+      "hours": 25,
+      "department": "cs"
+    },
+    {
+      "id": 5,
+      "name": "mariam",
+      "age": "28",
+      "salary": 2000,
+      "hours": 30,
+      "department": "it"
+    }
+  ]
+}

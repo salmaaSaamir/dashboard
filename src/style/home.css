@@ -1,0 +1,11 @@
+.charts{
+    width: 100%;
+    margin: 50px auto 0px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.charts .pieChart .x{
+    display: flex;
+}
