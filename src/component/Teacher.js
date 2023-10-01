@@ -8,7 +8,7 @@ function Teacher(){
     const [data,setData] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:9000/teachers').then((res)=> res.json()).then((res) => setData(res))
+        fetch('http://localhost:9101/teachers').then((res)=> res.json()).then((res) => setData(res))
     },[data])
 
     function deleteTeacher(teacher){
@@ -31,7 +31,7 @@ function Teacher(){
         reverseButtons: true
       }).then((result) => {
         if (result.isConfirmed) {
-          axios({method:'delete',url:`http://localhost:9000/teachers/${teacher.id}`})
+          axios({method:'delete',url:`http://localhost:9101/teachers/${teacher.id}`})
           swalWithBootstrapButtons.fire(
             'Deleted!',
             `teacher "${teacher.name}" has been deleted.`,

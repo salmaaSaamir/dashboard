@@ -3,7 +3,7 @@ import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Cell } fro
 function Scatterchart(){
   const [data,setData] = useState([])
   useEffect(()=>{
-      fetch('http://localhost:9000/teachers').then((res)=> res.json()).then((res) => setData(res))
+      fetch('http://localhost:9101/teachers').then((res)=> res.json()).then((res) => setData(res))
   },[])
       const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
     return(

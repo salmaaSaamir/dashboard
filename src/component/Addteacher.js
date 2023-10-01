@@ -14,7 +14,7 @@ function Addteacher(){
     const [hours,setHours] =  useState(0)
     function addStudent(e){
         e.preventDefault();
-        axios({method:'post',url:"http://localhost:9000/teachers",data:{
+        axios({method:'post',url:"http://localhost:9101/teachers",data:{
             name,age,salary,department,hours
         }})
         Swal.fire({

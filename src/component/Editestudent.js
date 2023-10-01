@@ -40,7 +40,7 @@ function Editestudent(){
             buttonsStyling: false
           })     
           swalWithBootstrapButtons.fire({
-            title: `Are you sure to update student "${student.name}" data ?`,
+            title: `Are you sure to update student "${student.name}" ?`,
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Yes, update it!',
@@ -48,7 +48,7 @@ function Editestudent(){
             reverseButtons: true
           }).then((result) => {
             if (result.isConfirmed) {
-              axios({method:'put',url:`http://localhost:9000/students/${student.id}`,
+              axios({method:'put',url:`http://localhost:9101/students/${student.id}`,
               data:{
                 name,age,degree,gpa,hours,department
               }

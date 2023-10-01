@@ -13,8 +13,8 @@ function Piechart(){
     const [data01,setData01] = useState([])
     const [data02,setData02] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:9000/students').then((res)=> res.json()).then((res) => setData01(res))
-        fetch('http://localhost:9000/teachers').then((res)=> res.json()).then((res) => setData02(res))
+        fetch('http://localhost:9101/students').then((res)=> res.json()).then((res) => setData01(res))
+        fetch('http://localhost:9101/teachers').then((res)=> res.json()).then((res) => setData02(res))
     },[])
     const RADIAN = Math.PI / 180;
   const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {

@@ -1,7 +1,7 @@
 import '../style/nav.css'
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse ,faUsers ,faChalkboardUser , faCircleInfo , faPlus} from '@fortawesome/free-solid-svg-icons'
+import { faHouse ,faUsers ,faChalkboardUser  , faPlus} from '@fortawesome/free-solid-svg-icons'
 function Navbar(){
     return(
     <>
@@ -9,7 +9,7 @@ function Navbar(){
 <nav className="navbar navbar-light bg-light fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand">Dashboard</a>
-    <p className='welcomeTeaxt'>know all about our ceneter through aour dashboard </p>
+    <p className='welcomeTeaxt'>know all about our ceneter through the dashboard </p>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

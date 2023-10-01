@@ -5,7 +5,7 @@ function Barchart(){
 
   const [data,setData] = useState([])
   useEffect(()=>{
-      fetch('http://localhost:9000/teachers').then((res)=> res.json()).then((res) => setData(res))
+      fetch('http://localhost:9101/teachers').then((res)=> res.json()).then((res) => setData(res))
   },[])
   const getPath = (x, y, width, height) => {
     return `M${x},${y + height}C${x + width / 3},${y + height} ${x + width / 2},${y + height / 3}

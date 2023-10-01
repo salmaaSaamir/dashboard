@@ -4,7 +4,7 @@ function Linechart(){
     const [data,setData] = useState([])
     useEffect(()=>{
         
-        fetch('http://localhost:9000/teachers').then((res)=> res.json()).then((res) => setData(res))
+        fetch('http://localhost:9101/teachers').then((res)=> res.json()).then((res) => setData(res))
     },[])
     
     return(

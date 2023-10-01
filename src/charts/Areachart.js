@@ -3,7 +3,7 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
 function Areachart(){
     const [data,setData] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:9000/students').then((res)=> res.json()).then((res) => setData(res))
+        fetch('http://localhost:9101/students').then((res)=> res.json()).then((res) => setData(res))
     },[])
     return(
         <>

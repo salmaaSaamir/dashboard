@@ -16,7 +16,7 @@ function Editeteacher(){
     const [hours,setHours] =  useState(0)
    
     useEffect(() =>{
-    fetch(`http://localhost:9000/teachers/${myTeacherId.id}`).then((res) =>res.json()).then((data) =>
+    fetch(`http://localhost:9101/teachers/${myTeacherId.id}`).then((res) =>res.json()).then((data) =>
  {    setTeacher(data)
       setName(data.name)
       setAge(data.age)
@@ -37,7 +37,7 @@ function Editeteacher(){
             buttonsStyling: false
           })     
           swalWithBootstrapButtons.fire({
-            title: `Are you sure to update teacher "${teacher.name}" data ?`,
+            title: `Are you sure to update teacher "${teacher.name}" ?`,
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Yes, update it!',

@@ -75,14 +75,6 @@
   ],
   "teachers": [
     {
-      "name": "reda",
-      "age": "45",
-      "salary": 3200,
-      "hours": "55",
-      "department": "cs",
-      "id": 1
-    },
-    {
       "id": 2,
       "name": "hoda",
       "age": "60",
@@ -99,20 +91,12 @@
       "department": "ai"
     },
     {
-      "id": 4,
-      "name": "abdelrahmen",
-      "age": "35",
-      "salary": 1000,
-      "hours": 25,
-      "department": "cs"
-    },
-    {
-      "id": 5,
       "name": "mariam",
       "age": "28",
       "salary": 2000,
       "hours": 30,
-      "department": "it"
+      "department": "it",
+      "id": 5
     }
   ]
 }

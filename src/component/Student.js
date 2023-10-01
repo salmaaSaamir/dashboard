@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Student(){
     const [data,setData] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:9000/students').then((res)=> res.json()).then((res) => setData(res))
+        fetch('http://localhost:9101/students').then((res)=> res.json()).then((res) => setData(res))
     },[data])
     function deleteStudent(student){
 
